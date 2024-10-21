@@ -1,1 +1,94 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+    /* background: pink; */
+    display: flex;
+}
+
+.left {
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+    align-content: center;
+}
+
+.left>img {
+    height: 106px;
+    margin: -28px;
+}
+.left>h2 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 32px;
+    font-weight: normal;
+}
+
+.right>form {
+    width: 392px;
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+button {
+    margin-bottom: 12px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: 1px solid rgba(0, 0, 0, 0.285);
+    font-size: 18px;
+}
+
+button {
+    background-color: #0866ff;
+    color: white;
+    font-weight: bold;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 12px;
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 24px 0;
+}
+
+.create-account {
+    text-align: center;
+    align-self: center;
+    color: white;
+    cursor: pointer;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    text-decoration: none;
+}
